@@ -8,7 +8,29 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <canvas id="canvas" width="608px" height="608px"></canvas>
+    <div class="wrapper">
+      <canvas id="canvas" width="608px" height="608px">
+        <p>Your browser doesn't support canvas.</p>
+      </canvas>
+      <div class="controls">
+        <h1 class="h1">Controls</h1>
+        <div class="box-controls">
+          <img
+            src="./image/control-1.png"
+            alt="control"
+            width="70px"
+            height="70px"
+          />
+          <img
+            src="./image/control-2.png"
+            alt="control"
+            width="70px"
+            height="70px"
+          />
+        </div>
+        <button type="reset" class="btn-reset">Reset</button>
+      </div>
+    </div>
   </body>
   <script src="./script/app.js"></script>
 </html>
